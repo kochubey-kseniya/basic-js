@@ -14,7 +14,7 @@ const { NotImplementedError } = require('../extensions/index.js');
  *
  */
 function createDreamTeam(members) {
-  let dreamTeamName = [];
+let dreamTeamName = [];
   if (!Array.isArray(members)) return false;
   members.forEach((member) => {
     if (typeof member == "string") {
@@ -23,8 +23,7 @@ function createDreamTeam(members) {
     return dreamTeamName;
   });
  if (dreamTeamName.length > 0) 
- {return dreamTeamName.sort().join("");
- }
+ return dreamTeamName.sort().join("");
  else return false;
 }
 
