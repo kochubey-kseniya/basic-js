@@ -1,4 +1,4 @@
-/*const { NotImplementedError } = require('../extensions/index.js');
+const { NotImplementedError } = require('../extensions/index.js');
 
 /**
  * Create transformed array based on the control sequences that original
@@ -13,7 +13,7 @@
  * transform([1, 2, 3, '--discard-prev', 4, 5]) => [1, 2, 4, 5]
  * 
  */
-/*function transform(arr) {
+function transform(arr) {
  if (!Array.isArray(arr)) {
     throw Error ();
   }
