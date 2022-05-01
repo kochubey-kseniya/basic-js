@@ -12,7 +12,7 @@
  * depthCalc.calculateDepth([[[]]]) => 3
  *
  */
-/*class DepthCalculator {
+/* class DepthCalculator {
   calculateDepth(arr) {
     let count = 1
     let count2 = 1
@@ -32,3 +32,4 @@
 module.exports = {
   DepthCalculator,
 }
+*/
