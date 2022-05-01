@@ -28,6 +28,7 @@ class DepthCalculator {
 
     return count2;
   }
+}
 module.exports = {
   DepthCalculator
 };
