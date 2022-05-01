@@ -23,7 +23,8 @@ function createDreamTeam(members) {
     return dreamTeamName;
   });
  if (dreamTeamName.length > 0) 
- return dreamTeamName.sort().join("");
+ {return dreamTeamName.sort().join("");
+ }
  else return false;
 }
 
